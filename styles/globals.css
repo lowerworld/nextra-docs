@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table._block {
+  th,
+  td {
+    @apply whitespace-nowrap;
+  }
+}
+
+.nextra-breadcrumb {
+  a,
+  span {
+    @apply inline-flex items-center;
+  }
+}
