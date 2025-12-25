@@ -1,0 +1,47 @@
+{
+  "name": "nextra-docs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.26.2",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "pagefind --site .next/server/app/ --output-path out/_pagefind/",
+    "format": "prettier --write .",
+    "lint:biome": "biome lint",
+    "lint:check-types": "tsc --noEmit",
+    "lint": "turbo run lint:biome lint:check-types --continue --log-order=grouped"
+  },
+  "dependencies": {
+    "lucide-react": "^0.562.0",
+    "next": "^16.1.1",
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.10",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@theguild/remark-mermaid": "^0.3.0",
+    "@types/node": "^22.19.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "clsx": "^2.1.1",
+    "pagefind": "^1.4.0",
+    "postcss": "^8.5.6",
+    "postcss-load-config": "^6.0.1",
+    "prettier": "^3.7.4",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.18",
+    "turbo": "^2.7.2",
+    "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
+}
