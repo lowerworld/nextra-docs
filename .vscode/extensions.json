@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "hediet.vscode-drawio",
+    "pomdtr.excalidraw-editor",
+    "prettier.prettier-vscode",
+    "unifiedjs.vscode-mdx"
+  ]
+}
