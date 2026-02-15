@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["eslint", "typescript", "unicorn", "react", "nextjs", "oxc"],
+  "categories": {
+    "pedantic": "warn"
+  },
+  "rules": {
+    "eslint/max-lines-per-function": "allow",
+    "eslint/require-await": "allow",
+    "react/button-has-type": "warn"
+  }
+}
