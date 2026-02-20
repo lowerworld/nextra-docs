@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 80,
+  "experimentalSortImports": {
+    "newlinesBetween": false
+  },
+  "experimentalTailwindcss": {
+    "stylesheet": "./app/globals.css",
+    "functions": ["clsx"]
+  }
+}
