@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "nextra-theme-docs/style.css";
+
+@theme {
+  --font-sans:
+    var(--font-inter), var(--font-noto-sans-jp), ui-sans-serif, system-ui,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+table.x\:block {
+  td,
+  th {
+    @apply whitespace-nowrap;
+  }
+}
+
+.nextra-breadcrumb {
+  a,
+  span {
+    @apply inline-flex items-center;
+  }
+}
+
+.lucide {
+  @apply size-5 stroke-[1.5];
+}
