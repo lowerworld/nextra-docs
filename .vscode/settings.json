@@ -1,0 +1,44 @@
+{
+  "editor.formatOnSave": true,
+  "excalidraw.image": {
+    "exportScale": 2,
+    "exportWithBackground": true,
+    "exportWithDarkMode": false
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "javascript.format.enable": false,
+  "mdx.validate.validateFileLinks": "ignore",
+  "oxc.requireConfig": true,
+  "oxc.typeAware": true,
+  "typescript.format.enable": false,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[markdown]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[mdx]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
+}
