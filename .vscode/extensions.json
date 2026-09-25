@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "hediet.vscode-drawio",
+    "oxc.oxc-vscode",
+    "pomdtr.excalidraw-editor",
+    "unifiedjs.vscode-mdx"
+  ]
+}
